@@ -1,0 +1,11 @@
+.link:visited {
+    color: none;
+}
+
+.link {
+    color: black;
+}
+
+.esconder {
+    display: none
+}
