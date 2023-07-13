@@ -28,7 +28,7 @@ Tive algumas dificuldades para utilizar os estados com a API, mas aos poucos fui
 ## Como rodar o código no computador 💻
 
 - Em uma pasta da sua escolha abra o terminal e digite
-> git clone
+> git clone https://github.com/EduhGarcia/Listagem-Pokemon.git
 - para instalar todos arquivos necessários digite
 >npm install
 - depois para visualizar o projeto digite
