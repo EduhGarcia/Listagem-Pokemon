@@ -23,7 +23,7 @@ export const ThemeTogglerButton = () => {
     
     return (
         <>
-            <Button onClick={trocaTema}>Modo escuro <i className="fas fa-moon"></i></Button>
+            <Button onClick={trocaTema}><i className="fas fa-moon"></i></Button>
         </>
     )
 }

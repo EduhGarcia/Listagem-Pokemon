@@ -1,26 +1,34 @@
 import styled from "styled-components";
 
 const ButReturn = styled.button`
-    padding: 15px 15px;
+    padding: 16px 20px;
     border-radius: 10px;
     border: 0;
     font-size: 18px;
     cursor: pointer;
     background-color: #0000FF;
     color: white;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     &:hover{
-        padding: 18px 18px;
+        padding: 19px 23px;
+        font-size: 19px;
     }
     @media (max-width: 780px) {
-        font-size: 15px;
-        padding: 12px 12px;
+        font-size: 20px;
+        padding: 12px 16px;
         &:hover{
-            padding: 15px 15px;
+            padding: 14px 18px;
         }
     }
     @media (max-width: 490px){
         margin-bottom: 20px;
+        font-size: 14px;
+        padding: 12px 16px;
+        margin-right: 20px;
+        &:hover{
+            padding: 12px 16px;
+            font-size: 14px;
+        }
     }
 `
 
@@ -30,9 +38,8 @@ const Header = styled.div`
     width: 100%;
     justify-content: space-between;
     margin: 15px 0 50px 0;
-    @media (max-width: 780px) {
+    @media (max-width: 490px){
         flex-direction: column;
-        margin-bottom: 70px;
     }
 `
 
@@ -145,6 +152,7 @@ const Div = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 35px;
+    min-height: 100vh;
     @media (max-width: 490px){
         padding: 20px;
      }
@@ -197,6 +205,8 @@ const H2 = styled.h2`
     margin: 110px 0 45px 0;
     font-weight: 700;
 `
+
+
 
 export {ButReturn, Div, DivAbilities, DivContainer, DivCard, DivInfo, EffectP, H2, H3 ,Header, Img, Li,
 NameP, P, Span, Strong, Ul, ImgLogo}

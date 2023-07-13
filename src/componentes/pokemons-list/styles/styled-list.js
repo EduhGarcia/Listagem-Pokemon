@@ -16,10 +16,10 @@ const Ul = styled.ul`
 
 const Div = styled.div`
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    padding-top: 40px;
+    min-height: 100vh;
 `
 
 
@@ -29,7 +29,7 @@ const Header = styled.div`
     align-items: center;
     justify-content: space-between;
     margin: 0 50px;
-    @media (max-width: 920px){
+    @media (max-width: 1018px){
         flex-direction: column;
     }
     @media (max-width: 490px){
@@ -58,7 +58,7 @@ const Li = styled.li`
     align-items: center;
     border: solid 2px black;
     padding: 13px;
-    background-color: #C0C0C0;
+    background-color: #A9A9A9;
     transition: 0.5s ease-in-out;
     &:hover{
         color: #00008B;
@@ -108,7 +108,7 @@ const Button = styled.div`
 const DivSearch = styled.div`
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     @media (max-width: 920px){
         margin-top: 30px;
     }
@@ -119,12 +119,14 @@ const DivSearch = styled.div`
 `
 
 const ButSearch = styled.button`
-    padding: 12px 18px;
+    padding: 12px 16px;
     font-size: 18px;
-    background-color: #0000FF;
+    background-color: #00008B;
     color: white;
-    border-radius: 10px;
+    border: 0;
+    border-radius: 7px;
     cursor: pointer;
+    margin-right: 25px;
     @media (max-width: 490px){
         font-size: 14px;
     }
@@ -139,9 +141,12 @@ const ImgLogo = styled.img`
 
 const P = styled.p`
     font-size: 40px;
-    color: red;
+    color: #DC143C;
+    margin-top: 100px;
     @media (max-width: 490px){
-        font-size: 20px;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0;
     }
 `
 

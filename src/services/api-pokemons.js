@@ -13,7 +13,6 @@ export async function getPokemonType(name) {
     return await response.json()
 }
 
-
 export async function getDescriptionEffect(apiEffect) {
     const response = await fetch(apiEffect)
     return await response.json()
