@@ -153,6 +153,7 @@ const Div = styled.div`
     align-items: center;
     padding: 35px;
     min-height: 100vh;
+    transition: 0.4s ease-in-out;
     @media (max-width: 490px){
         padding: 20px;
      }

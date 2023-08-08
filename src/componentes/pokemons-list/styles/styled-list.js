@@ -20,6 +20,7 @@ const Div = styled.div`
     align-items: center;
     padding-top: 40px;
     min-height: 100vh;
+    transition: 0.4s ease-in-out;
 `
 
 
